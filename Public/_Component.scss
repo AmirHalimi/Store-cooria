@@ -1,0 +1,11 @@
+//////? Variables
+$Primary-color: rgb(143, 67, 238);
+$Secondry-Color: rgb(170, 119, 255);
+
+$linear-Gradient: linear-gradient(to right , $Primary-color 20% , $Secondry-Color);
+
+//////? Mixin
+@mixin Container() {
+   width: 90vw;
+   margin: auto;
+} 
